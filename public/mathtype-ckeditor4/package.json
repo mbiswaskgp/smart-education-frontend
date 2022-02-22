@@ -1,0 +1,85 @@
+{
+  "_from": "@wiris/mathtype-ckeditor4",
+  "_id": "@wiris/mathtype-ckeditor4@7.27.0",
+  "_inBundle": false,
+  "_integrity": "sha512-/GyT54iAhmFf+44nbFHXwimUQAMf2wQAJjvhMUa/biatlzdtmd1gKmTRdk7xlhoRrmaGWG2Ro9LGrNA/0ae43w==",
+  "_location": "/@wiris/mathtype-ckeditor4",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@wiris/mathtype-ckeditor4",
+    "name": "@wiris/mathtype-ckeditor4",
+    "escapedName": "@wiris%2fmathtype-ckeditor4",
+    "scope": "@wiris",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@wiris/mathtype-ckeditor4/-/mathtype-ckeditor4-7.27.0.tgz",
+  "_shasum": "4f9af81db9d736590c801a7553162fce6d97ec2a",
+  "_spec": "@wiris/mathtype-ckeditor4",
+  "_where": "E:\\react\\smart-education\\frontend",
+  "author": {
+    "name": "WIRIS Team",
+    "url": "https://www.wiris.com"
+  },
+  "bugs": {
+    "email": "support@wiris.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@wiris/mathtype-html-integration-devkit": "1.6.0"
+  },
+  "deprecated": false,
+  "description": "MathType Web for CKEditor4 editor",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "raw-loader": "^4.0.2",
+    "shx": "^0.3.3",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "gitHead": "73a6520293f0681c189704cd9af64a2f223a1228",
+  "homepage": "https://www.wiris.com/",
+  "keywords": [
+    "chem",
+    "chemistry",
+    "chemtype",
+    "ckeditor",
+    "ckeditor4",
+    "editor",
+    "equation",
+    "latex",
+    "math",
+    "mathml",
+    "maths",
+    "mathtype",
+    "wiris"
+  ],
+  "license": "MIT",
+  "main": "plugin.js",
+  "name": "@wiris/mathtype-ckeditor4",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wiris/html-integrations/tree/stable/packages/mathtype-ckeditor4"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "build-dev": "webpack --mode development",
+    "clean": "shx rm -f plugin.js",
+    "compile": "node ../../scripts/services/compile plugin.src.js .",
+    "prepack": "npm install && npm run build"
+  },
+  "version": "7.27.0"
+}

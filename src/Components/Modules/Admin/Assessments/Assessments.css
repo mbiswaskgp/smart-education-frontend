@@ -1,0 +1,72 @@
+.rows {
+    display: flex;
+    justify-content: center;
+}
+.column {
+    float: left;
+}
+.column2 {
+    margin-top: 24px;
+    margin-left:20px;
+}
+.modal-video-close-btn{
+    top:0 !important;
+    right:-44px !important;
+}
+.imageCrop{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+.crop-container {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.modal-body{
+    height:400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.cropper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+}
+
+.h-40{
+    height:40px !important;
+}
+
+.img-prev{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.tableAssessments .errorMsg{
+    position: absolute;
+    bottom: -20px;
+    left: 15px;
+    font-size: 12px;
+}
+.tableAssessments .form-group{
+    position: relative;
+}
+.redBtn2{
+    background: #d33;
+    color: #fff;
+    width: 100%;
+    border: none;
+    padding: 0 20px;
+    line-height: 38px;
+    border-radius: 4px;
+}
+
+.hide {
+    display: none;
+ }

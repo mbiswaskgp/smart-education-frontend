@@ -1,0 +1,17 @@
+.timer-icon{
+    float: right;
+    top: 14px;
+    right: 438px;
+    position: absolute;
+}
+.timer{
+    float: right;
+    position: absolute;
+    top: 28px;
+    right: 209px;
+}
+.timer-box{
+    position: relative;
+    bottom: 57px;
+    left: 141px;
+}
